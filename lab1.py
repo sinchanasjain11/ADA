@@ -50,7 +50,6 @@ class Graph:
         print("Total cost of MST =", total_cost)
 
 
-# ---------------- DRIVER CODE ----------------
 
 g = Graph()
 
@@ -65,3 +64,4 @@ for _ in range(e):
     g.add_edge(u, v, w)
 
 g.kruskal_mst()
+
