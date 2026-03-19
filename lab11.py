@@ -44,7 +44,6 @@ for n in n_list:
     sort_time.append(e_t-s_t)
 
 
-# Plotting the graph
 plt.plot(n_list,sort_time, marker='x')
 plt.xlabel("Number of Elements (n)")
 plt.ylabel("Time Taken (seconds)")
