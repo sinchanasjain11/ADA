@@ -1,3 +1,7 @@
+"""Design and implement C/JAVA/Python Program to find Minimum Cost Spanning 
+Tree of a given connected undirected graph using Kruskal's algorithm."""
+
+
 class Graph:
     def __init__(self):
         self.edges = []
@@ -50,6 +54,7 @@ class Graph:
         print("Total cost of MST =", total_cost)
 
 
+# ---------------- DRIVER CODE ----------------
 
 g = Graph()
 
