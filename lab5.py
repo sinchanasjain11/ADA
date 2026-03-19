@@ -48,3 +48,8 @@ for _ in range(e):
     edges.append((u, v))
 
 topological_sort(n, edges)
+5,4
+1 2
+1 3
+2 4
+3 4
