@@ -54,8 +54,6 @@ class Graph:
         print("Total cost of MST =", total_cost)
 
 
-# ---------------- DRIVER CODE ----------------
-
 g = Graph()
 
 e = int(input("Enter number of edges: "))
