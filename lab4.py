@@ -28,7 +28,7 @@ def dijkstra(graph, source, n):
 
     return dist
 
-# Example Graph (Adjacency Matrix)
+
 graph = [
     [0, 4, INF, INF, INF, INF, INF, 8, INF],
     [4, 0, 8, INF, INF, INF, INF, 11, INF],
