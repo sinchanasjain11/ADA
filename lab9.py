@@ -16,7 +16,7 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
-# Values of n (> 5000)
+
 n_values = [5000, 7000, 9000, 11000, 13000]
 time_taken = []
 
@@ -32,7 +32,7 @@ for n in n_values:
     
     print(f"n = {n}, Time Taken = {elapsed_time:.4f} seconds")
 
-# Plotting the graph
+
 plt.plot(n_values, time_taken, marker='o')
 plt.xlabel("Number of Elements (n)")
 plt.ylabel("Time Taken (seconds)")
